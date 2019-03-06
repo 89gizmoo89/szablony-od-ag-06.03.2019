@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html lang="pl">
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        <link href="https://fonts.googleapis.com/css?family=Oswald:300,400&amp;subset=latin-ext" rel="stylesheet">
+        
+    </head>
+    <body>
+        <div class="container container-topspace">
+            <header class="main-hdr">
+                <a href="/" class="logo">
+                    <img src="img/szeroki-kadr.png" alt=""/>
+                </a>    
+                <nav class="main-nav">
+                    <ul>
+                        <li class="main-nav_li">
+                            <a href="" class="main-nav_a">Strona główna</a>
+                        </li>
+                        <li class="main-nav_li">
+                            <a href="" class="main-nav_a">Poradnik</a>
+                        </li>
+                        <li class="main-nav_li">
+                            <a href="" class="main-nav_a">Fotograf miesiąca</a>
+                        </li>
+                        <li class="main-nav_li">
+                            <a href="" class="main-nav_a">Inspiracje</a>
+                        </li>
+                        <li class="main-nav_li">
+                            <a href="" class="main-nav_a">Społeczność</a>
+                        </li>
+                        <li class="main-nav_li">
+                            <a href="" class="main-nav_a">Dla szkół</a>
+                        </li>
+                        <li class="main-nav_li">
+                            <a href="" class="main-nav_a">Konkurs</a>
+                        </li>
+                    </ul>    
+                </nav>
+            </header>
+            
+            <main class="main-content">
+                <div class="boxes">
+                    <a href='#' class="box box-vertical">
+                        <img src="img/box-3.jpg" alt=""/>
+                    </a>
+                    <a href='#' class="box box-horizontal">
+                        <img src="img/box-2.jpg" alt=""/>
+                        <div class="boxlabel">
+                            <span class="boxlabel-hdr">Fotograf miesiąca</span>
+                            <span class="boxlabel-hdr1">Joanna Koroniewska</span>
+                        </div>
+                    </a> 
+                    <a href='#' class="box">
+                        <img src="img/box1.jpg" alt=""/>
+                    </a>
+                    <a href='#' class="box box-horizontal">
+                        <img src="img/Layer 11.png" alt=""/>
+                    </a> 
+                    <a href='#' class="box">
+                        <img src="" alt=""/>
+                    </a>
+                    <a href='#' class="box box-horizontal">
+                        <img src="" alt=""/>
+                    </a> 
+                    <a href='#' class="box">
+                        <img src="" alt=""/>
+                    </a>
+                    <a href='#' class="box">
+                        <img src="" alt=""/>
+                    </a>
+                    <a href='#' class="box box-horizontal">
+                        <img src="" alt=""/>
+                    </a> 
+                    <a href='#' class="box">
+                        <img src="" alt=""/>
+                    </a>
+                    <a href='#' class="box">
+                        <img src="" alt=""/>
+                    </a>
+                    
+                </div>
+                
+            </main>
+            <footer class="mainfoot main-content">
+                <p class="footp">
+                <a href="#" class="foota">Kontakt</a>
+                <a href="#" class="foota">O nas</a>
+                <a href="#" class="foota">Poradnik</a>
+                
+                </p>
+                <div>
+                    SzerokiKadr.pl to serwis dla miłośników fotografii, którzy chcą się dowiedzieć, jak robić dobre zdjęcia. To także kompleksowy kurs fotografii online, który inspiruje, uczy i motywuje. Artykuły i videoporadniki tworzone przez zawodowców poprowadzą przez wszystkie stopnie wtajemniczenia sztuki fotograficznej. Prezentowane zagadnienia zostały zilustrowane znakomitymi zdjęciami i grafikami. Poradniki odpowiadają na pytanie, jak fotografować najpopularniejsze tematy. Pomagają sprostać każdemu wyzwaniu fotograficznemu. W filmowych wywiadach polscy i zagraniczni mistrzowie fotografii opowiadają o swojej życiowej pasji. Co miesiąc nowy znakomity fotograf zdradza tajniki swojego warsztatu, wprowadzając czytelnika w świat jednego gatunku fotografii. Na czytelników czekają zadania domowe w comiesięcznym konkursie fotograficznym dla amatorów. Codziennie portal wzbogacany jest także o nową porcję inspirujących linków. Zachęcamy do zaglądania na SzerokiKadr.pl, czyli dobrze wykadrowany portal edukacyjny o fotografii!
+                </div>
+            </footer>
+        </div>
+        <aside class="comm">
+            <button id="commBtn" class="commbtn">
+                <span class="commico">o</span>
+            </button>
+            <div class="commcont">
+                
+            </div>
+        </aside>
+        <script>
+            var btn = document.getElementById("commBtn")
+            if(btn){
+                btn.addEventListener('click',function(){
+                        this.parentNode.classList.toggle('open'));
+            })
+            </script>
+            
+    </body>
+</html>
